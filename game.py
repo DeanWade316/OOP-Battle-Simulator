@@ -38,9 +38,6 @@ def main():
     goblinAttack = goblin.attack()
     hero.take_damage(goblinAttack)
 
-    battle(hero, goblin)
-    battle(hero, secondGoblin)
-
 
 if __name__ == "__main__":
     main()

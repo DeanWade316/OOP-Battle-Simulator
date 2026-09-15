@@ -16,7 +16,7 @@ class Hero:
     def take_damage(self, damage):
         """Reduce health without allowing it to fall below zero."""
         self.health = max(0, self.health - damage)
-        print(str(self.name) + "takes " + str(damage) + " damge. Health: " + str(self.health))
+        print(str(self.name) + "takes" + str(damage) + "damge. Health: " + str(self.health))
     
     def is_alive(self):
         """Return True while the hero has health remaining."""
